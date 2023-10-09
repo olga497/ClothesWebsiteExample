@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.API/ClothesShop.API.csproj": {}
+  },
+  "projects": {
+    "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.API/ClothesShop.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.API/ClothesShop.API.csproj",
+        "projectName": "ClothesShop.API",
+        "projectPath": "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.API/ClothesShop.API.csproj",
+        "packagesPath": "/Users/olgagolovina/.nuget/packages/",
+        "outputPath": "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/olgagolovina/Documents/OurLessons/NuGet.Config",
+          "/Users/olgagolovina/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.Infrastructure/ClothesShop.Infrastructure.csproj": {
+                "projectPath": "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.Infrastructure/ClothesShop.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.Infrastructure/ClothesShop.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.Infrastructure/ClothesShop.Infrastructure.csproj",
+        "projectName": "ClothesShop.Infrastructure",
+        "projectPath": "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.Infrastructure/ClothesShop.Infrastructure.csproj",
+        "packagesPath": "/Users/olgagolovina/.nuget/packages/",
+        "outputPath": "/Users/olgagolovina/Documents/OurLessons/OnlineClothesShop/ClothesShop.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/olgagolovina/Documents/OurLessons/NuGet.Config",
+          "/Users/olgagolovina/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.412/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

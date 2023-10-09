@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sqlserver-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sqlserverdb
+  template:
+    metadata:
+      labels:
+        app: sqlserverdb
+    spec:
+      containers:
+        - name: sqlserverdb
+          image: mcr.microsoft.com/azure-sql-edge:latest
+          ports:
+            - containerPort: 1433
+          env:
+            - name: SA_PASSWORD
+              value: "Lesson123!"
+            - name: ACCEPT_EULA
+              value: "Y"
+          volumeMounts:
+            - name: sqlserver-data
+              mountPath: /var/opt/sqlserverdb/data
+      volumes:
+        - name: sqlserver-data
+          persistentVolumeClaim:
+            claimName: sqlserver-pvc

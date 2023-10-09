@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{6DFFF915-9081-4376-929D-8FE0DDFC4CCF}|ClothesShop">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ClothesShop.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ClothesShop.API/Program.cs">
+    <Files>
+      <File FileName="ClothesShop.API/appsettings.json" Line="6" Column="6" />
+      <File FileName="ClothesShop.Infrastructure/Contexts/ApplicationDbContext.cs" Line="1" Column="1" />
+      <File FileName="ClothesShop.API/Program.cs" Line="148" Column="3" />
+      <File FileName="ClothesShop.API/Controllers/AuthenticateController.cs" Line="1" Column="1" />
+      <File FileName="ClothesShop.API/Controllers/ProductController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ClothesShop" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="ClothesShop.API">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="ClothesShop.Infrastructure" expanded="True">
+              <Node name="Contexts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
