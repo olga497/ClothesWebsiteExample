@@ -16,3 +16,4 @@ Docker should be installed and running.
 Go to **Assignment3** folder in the CLI and use `docker-compose up -d` for running the application in the background. The images will be built if there are no images from before and containers for backend, frontend and database will be created. 
 
 Depending on where you run an application, you should change environment variable in the frontend folder in the **.env** file for the IP address (**public IP address** for AWS EC2 instance, **localhost** for the local machine).
+
